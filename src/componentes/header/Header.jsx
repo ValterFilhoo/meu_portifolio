@@ -19,7 +19,7 @@ function Header() {
     <header className="flex bg-gray-950 w-full">
 
       <div className="w-[20%] m-5 flex justify-center items-center p-8 ">
-        <p className="font-serif text-white text-6xl">VF</p>
+        <p className="font-serif text-white text-5xl">VF</p>
       </div>
 
       <nav className="w-[70%] sm:w-[100%] sm:mr-0 flex justify-end items-center ">
@@ -33,26 +33,26 @@ function Header() {
 
         {/* Ícone de menu que será exibido apenas em telas menores que 640px. */}
         <ul className="flex 
-              flex-wrap gap-10 text-white text-2xl mr-20 max-sm:hidden sm:hidden md:hidden lg:flex rounded-lg"
+              flex-wrap gap-10 text-white text-lg mr-20 max-sm:hidden sm:hidden md:hidden lg:flex rounded-lg"
         >
 
-          <li className="font-serif border-2 border-solid border-amber-50 rounded-lg 
-          p-4 cursor-pointer hover:bg-gray-200 hover:text-black">
+          <li className="flex items-center  font-serif border-2 border-solid border-amber-50 rounded-lg 
+          p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
             Página Inicial
           </li>
 
           <li className="font-serif border-2 border-solid border-amber-50 rounded-lg  
-          p-4 cursor-pointer hover:bg-gray-200 hover:text-black ">
+          p-2 cursor-pointer hover:bg-gray-200 hover:text-black ">
             Sobre Mim
           </li>
 
           <li className="font-serif border-2 border-solid border-amber-50 rounded-lg 
-          p-4 cursor-pointer hover:bg-gray-200 hover:text-black">
+          p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
             Projetos
           </li>
 
           <li className="font-serif border-2 border-solid border-amber-50 rounded-lg 
-          p-4 cursor-pointer hover:bg-gray-200 hover:text-black">
+          p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
             Contato
           </li>
 
