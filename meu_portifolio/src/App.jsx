@@ -1,6 +1,5 @@
-import './App.css'
-import Footer from './componentes/footer/Footer';
-import Header from './componentes/header/Header'
+import './App.css';
+import PaginaInicial from './componentes/paginaInicial/PaginaInicial';
 
 function App() {
   
@@ -9,9 +8,8 @@ function App() {
    
     <>
 
-    <Header />
-    <div className='bg-white'> Teste</div>
-    <Footer />
+      <PaginaInicial/>
+    
     </>
     
 
