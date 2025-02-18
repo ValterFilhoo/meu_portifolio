@@ -9,7 +9,7 @@ function Header() {
 
   // Ícone de menu que será exibido apenas em telas menores que 640px.
   // Se o menu for clicado, depedendo do seu estado, o ícone será o de fechar o menu, caso contrário, será o de abrir o menu.
-  const iconeMobile = menuClicado ? <RiCloseLargeLine size={50} color="white" className="mr-28 sm:flex md:flex lg:hidden" /> : <TiThMenu size={50} color="white" className="mr-28 sm:flex md:flex lg:hidden" />;
+  const iconeMobile = menuClicado ? <RiCloseLargeLine size={50} color="white" className="mr-10 sm:flex md:flex lg:hidden" /> : <TiThMenu size={50} color="white" className="mr-10 sm:flex md:flex lg:hidden" />;
 
 
   return (
@@ -63,7 +63,7 @@ function Header() {
       {/*Opções das categorias que será exibido apenas em telas maiores que 640px. */}
       <nav>
 
-          <ul className={`flex flex-col  ${menuClicado ? "flex items-center w-[40%] bg-white absolute shadow-2xl sm:right-2 sm:top-41 md:top-41 p-4 gap-5 rounded-md max-sm:right-3 max-sm:top-41 max-sm:w-[50%] "  : "hidden"}`}>
+          <ul className={`flex flex-col  ${menuClicado ? "flex items-center w-[40%] bg-white absolute shadow-2xl sm:right-0 sm:top-41 md:top-41 p-4 gap-5 rounded-md max-sm:right-3 max-sm:top-41 max-sm:w-[50%] "  : "hidden"}`}>
 
             <li>
               <a href="#" className="font-serif text-black text-2xl">Página Inicial</a>
