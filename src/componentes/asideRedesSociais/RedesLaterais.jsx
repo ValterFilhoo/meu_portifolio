@@ -5,7 +5,7 @@ function RedesLaterais() {
 
     return (
 
-        <div className="w-[4%] fixed top-[40%] md:w-[6%] md:top-[42%] sm:w-[8%] sm:mr-[50%] sm:top-[42%] max-sm:w-[12%]  max-sm:top-[45%] bg-gray-200 shadow-xl rounded-s-lg " dir="rtl">
+        <div className="w-[4%] fixed top-[40%] md:w-[6%] md:top-[42%] sm:w-[8%] sm:mr-[50%] sm:top-[42%] max-sm:w-[12%]  max-sm:top-[45%] bg-gray-100 shadow-xl rounded-s-lg " dir="rtl">
 
                 <aside className="flex flex-col items-center p-4 sm:p-3 max-sm:p-2 gap-5">
 
