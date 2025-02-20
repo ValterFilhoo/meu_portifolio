@@ -33,25 +33,25 @@ function Header() {
 
         {/* Ícone de menu que será exibido apenas em telas menores que 640px. */}
         <ul className="flex 
-              flex-wrap gap-10 text-white text-lg mr-20 max-sm:hidden sm:hidden md:hidden lg:flex rounded-lg"
+              flex-wrap gap-10 font-serif text-white text-lg mr-20 max-sm:hidden sm:hidden md:hidden lg:flex rounded-lg"
         >
 
-          <li className="flex items-center font-roboto border-2 border-solid border-amber-50 rounded-lg 
+          <li className="flex items-center border-2 border-solid border-amber-50 rounded-lg 
           p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
             Página Inicial
           </li>
 
-          <li className="font-roboto border-2 border-solid border-amber-50 rounded-lg  
+          <li className="border-2 border-solid border-amber-50 rounded-lg  
           p-2 cursor-pointer hover:bg-gray-200 hover:text-black ">
             Sobre Mim
           </li>
 
-          <li className="font-roboto border-2 border-solid border-amber-50 rounded-lg 
+          <li className="border-2 border-solid border-amber-50 rounded-lg 
           p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
             Projetos
           </li>
 
-          <li className="font-roboto border-2 border-solid border-amber-50 rounded-lg 
+          <li className="border-2 border-solid border-amber-50 rounded-lg 
           p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
             Contato
           </li>
