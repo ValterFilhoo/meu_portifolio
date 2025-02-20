@@ -36,7 +36,7 @@ function Header() {
               flex-wrap gap-10 text-white text-lg mr-20 max-sm:hidden sm:hidden md:hidden lg:flex rounded-lg"
         >
 
-          <li className="flex items-center  font-serif border-2 border-solid border-amber-50 rounded-lg 
+          <li className="flex items-center border-2 border-solid border-amber-50 rounded-lg 
           p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
             Página Inicial
           </li>
