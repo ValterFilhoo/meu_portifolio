@@ -63,7 +63,7 @@ function Header() {
       {/*Opções das categorias que será exibido apenas em telas maiores que 640px. */}
       <nav>
 
-          <ul className={`flex flex-col  ${menuClicado ? "flex items-center w-[40%] bg-gray-100 absolute shadow-2xl sm:right-0 sm:top-41 md:top-41 p-4 gap-5 rounded-md max-sm:right-0 max-sm:top-[18%] max-sm:w-[50%] "  : "hidden"}`}>
+          <ul className={`flex flex-col  ${menuClicado ? "flex items-center w-[40%] bg-gray-100 absolute shadow-2xl sm:right-0 sm:top-41 md:top-41 p-4 gap-5 rounded-md max-sm:right-0 max-sm:top-38 max-sm:w-[50%] "  : "hidden"}`}>
 
             <li>
               <a href="#" className="font-serif text-black text-2xl">Página Inicial</a>

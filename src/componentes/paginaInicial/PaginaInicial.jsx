@@ -8,7 +8,7 @@ function PaginaInicial () {
         <>
 
             <Header/>
-            <main className="w-full">
+            <main className="w-full mb-[10%]">
 
                 <div className="relative">
                     <RedesLaterais/>
