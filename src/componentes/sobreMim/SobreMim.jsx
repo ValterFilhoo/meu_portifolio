@@ -17,34 +17,34 @@ function SobreMim() {
             <section className="w-[80%] m-auto mt-20">
 
                 {/*Titulo Principal */}
-                <div className="flex justify-center items-center flex-wrap w-[100%] mt-20 mb-10">
-                    <h1 className="text-5xl font-bold font-serif break-words max-sm:text-4xl">Sobre Mim</h1>
+                <div className="flex justify-center w-full mt-20 mb-10">
+                    <h1 className="text-5xl text-center border-2 font-bold font-serif break-words max-sm:text-4xl">Sobre Mim</h1>
                 </div>
 
                 {/*Parágro com as informações resumidas do tópico Sobre Mim. */}
-                <div>
+                <div className="w-[80%] m-auto">
                     <p className="text-lg text-justify font-serif break-words">Olá! Sou Valter dos Santos Filho, desenvolvedor de sistemas web e estudante de Análise e Desenvolvimento de Sistemas no Instituto Federal Baiano (Campus Catu), localizado em Catu, Bahia. Estou atualmente no quinto semestre do curso, onde venho adquirindo conhecimento e habilidades em diversas áreas do desenvolvimento de software.</p>
                 </div>
 
                 {/*Titulo secundário */}
-                <div className="flex justify-center items-center flex-wrap w-[100%] mt-10 mb-10">
-                    <h2 className="text-4xl font-bold font-serif break-words max-sm:text-3xl">Formação Acadêmica</h2>
+                <div className="flex justify-center w-full mt-20 mb-10">
+                    <h2 className="text-4xl text-center font-bold font-serif break-words max-sm:text-3xl">Formação Acadêmica</h2>
                 </div>
 
                 {/*Parágrafo relacionado a formação academica */}
-                <div>
+                <div className="w-[80%] m-auto">
                     <p className="text-lg text-justify font-serif break-words">Atualmente, estou cursando Análise e Desenvolvimento de Sistemas no Instituto Federal Baiano (IF Baiano), Campus Catu. Durante minha jornada acadêmica, tive a oportunidade de participar como competidor no evento Robocup 2023 em Salvador-Bahia ao longo de 5 dias, sendo uma experiência que foi extremamente enriquecedora e me proporcionou um aprendizado prático valioso.</p>
                 </div>
 
-                <div className="flex justify-center items-center flex-wrap w-[100%] mt-10 mb-10">
-                    <h2 className="text-4xl font-bold font-serif break-words max-sm:text-3xl">Experiência Profissional e Acadêmica</h2>
+                <div className="flex justify-center w-full mt-20 mb-10">
+                    <h2 className="text-4xl text-center font-bold font-serif break-words max-sm:text-3xl">Experiência Profissional e Acadêmica</h2>
                 </div>
 
-                <div>
+                <div className="w-[80%] m-auto">
                     <p className="text-lg text-justify font-serif break-words">Estou em busca da minha primeira oportunidade profissional na área de desenvolvimento. No entanto, já tive a chance de trabalhar em vários projetos acadêmicos e pessoais que me permitiram aplicar e expandir meus conhecimentos:</p>
                 </div>
 
-                <div>
+                <div className="w-[80%] m-auto">
                     
                     <ul className="list-inside text-lg font-serif break-words">
                         
@@ -103,20 +103,20 @@ function SobreMim() {
 
 
                 {/*Titulo secundário */}
-                <div className="flex justify-center items-center flex-wrap w-[100%] mt-10 mb-10">
-                    <h2 className="text-4xl font-bold font-serif break-words max-sm:text-3xl">Interesses e Objetivos de Carreira</h2>
+                <div className="flex justify-center w-full mt-20 mb-10">
+                    <h2 className="text-4xl text-center font-bold font-serif break-words max-sm:text-3xl">Interesses e Objetivos de Carreira</h2>
                 </div>
 
-                <div>
+                <div className="w-[80%] m-auto">
                     <p className="text-lg text-justify font-serif break-words">Desejo atuar como desenvolvedor full-stack ou mobile, ainda estou explorando minhas opções para decidir qual caminho seguir. A curto prazo, meu objetivo é conseguir minha primeira oportunidade profissional e começar a desenvolver uma carreira consistente. A longo prazo, pretendo continuar evoluindo e me especializando, contribuindo para projetos inovadores que façam a diferença na vida das pessoas.</p>
                 </div>
 
                 {/*Titulo secundário */}
-                <div className="flex justify-center items-center flex-wrap w-[100%] mt-10 mb-10">
-                    <h2 className="text-4xl font-bold font-serif break-words max-sm:text-3xl">Habilidades e Competências</h2>
+                <div className="flex justify-center w-full mt-20 mb-10">
+                    <h2 className="text-4xl text-center font-bold font-serif break-words max-sm:text-3xl">Habilidades e Competências</h2>
                 </div>
 
-                <div>
+                <div className="w-[80%] m-auto">
 
                     <ul className="list-disc text-lg font-serif break-words">
                         <li>Desenvolvimento Web: HTML, CSS, JavaScript, PHP, MySQL, React.js e Tailwind; </li>
