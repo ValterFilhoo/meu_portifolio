@@ -22,13 +22,15 @@ function Header() {
     if (location.pathname !== path) {
       navigate(path);
     }
+    setMenuClicado(false); // Fecha o menu após a navegação
   };
 
   return (
-    
+
     // Container que terá o conteúdo do header.
     // O conteúdo do header será um menu de navegação com links para as seções do site e um logo que será as siglas do meu nome.
     <header className="flex bg-gray-950 w-full">
+      
       <div className="w-[20%] m-5 flex justify-center items-center p-8">
         <p className="font-serif text-white text-5xl">VF</p>
       </div>
