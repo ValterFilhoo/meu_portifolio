@@ -1,7 +1,7 @@
 import Header from "../header/Header";
 import RedesLaterais from "../asideRedesSociais/RedesLaterais";
 
-function PaginaInicial () {
+function PaginaInicial() {
 
     return (
 
