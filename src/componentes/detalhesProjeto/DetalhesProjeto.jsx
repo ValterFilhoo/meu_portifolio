@@ -22,25 +22,26 @@ function DetalhesProjeto() {
 
         <main>
 
-            <section className='w-[80%] m-auto mt-20 mb-6'>
+            <section className='w-[80%] max-sm:w-[70%] m-auto mt-20 mb-6'>
 
                 <div className="flex flex-col">
 
                     <div className='flex justify-center items-center flex-wrap mb-10'>
 
-                        <h2 className="text-3xl font-bold mb-4">{projeto.titulo}</h2>
+                        <h2 className="text-4xl font-bold mb-4 max-sm:text-4xl max-sm:w-full text-center ">{projeto.titulo}</h2>
 
                     </div>
                     
-                    <div className='w-[70%] h-[400px] m-auto mb-12 '>
+                    <div className='w-[70%] h-[400px] m-auto mb-12 max-sm:h-[200px] max-sm:w-full 
+                    max-sm:border-2 max-sm:border-gray-200'>
 
                         <img src={projeto.imagem} alt={projeto.titulo} className="w-full h-full object-scale-down" />
 
                     </div>
                     
-                    <div className='w-full flex justify-center flex-wrap mt-8 mb-6'>
+                    <div className='w-full flex justify-center text-justify flex-wrap mt-8 mb-6'>
 
-                        <p className="text-justify"><strong>Descrição:</strong> {projeto.descricao}</p>
+                        <p className="text-justify text-lg"><strong>Descrição:</strong> {projeto.descricao}</p>
 
                     </div>
                     
@@ -57,7 +58,7 @@ function DetalhesProjeto() {
 
                             {projeto.tecnologias.map((tecnologia, index) => (
 
-                            <div key={index} className="px-2 py-1 bg-black text-white rounded-md text-sm">
+                            <div key={index} className="px-2 py-1 bg-black text-white rounded-md text-lg">
                                 {tecnologia}
                             </div>
 
@@ -68,14 +69,14 @@ function DetalhesProjeto() {
                     </div>
                 
 
-                    <div className='mb-6'>
+                    <div className='mb-6 text-justify'>
 
                         <h4 className="text-xl font-bold mb-2">Funcionalidades:</h4>
 
                         <ul className="list-disc list-inside">
 
                             {projeto.funcionalidades.map((funcionalidade, index) => (
-                            <li key={index}>{funcionalidade}</li>
+                            <li key={index} className='text-lg text-justify'>{funcionalidade}</li>
                             ))}
 
                         </ul>
@@ -83,7 +84,7 @@ function DetalhesProjeto() {
 
                     </div>
 
-                    <p><strong>Desafios:</strong> {projeto.desafios}</p>
+                    <p><strong className='text-lg'>Desafios:</strong> {projeto.desafios}</p>
 
                 </div>
 

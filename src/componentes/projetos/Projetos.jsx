@@ -19,9 +19,9 @@ function Projetos() {
 
                     <div className='flex justify-center items-center flex-wrap'>
                         
-                        <h1 className='text-5xl font-bold mb-16 max-sm:text-3xl'>Projetos</h1>
+                        <h1 className='text-5xl font-bold mb-16 max-sm:text-4xl'>Projetos</h1>
 
-                        <p className='text-2xl text-justify'>Aqui estão alguns dos projetos nos quais desenvolvi, incluindo projetos acadêmicos e pessoais. Cada um deles reflete minha dedicação ao desenvolvimento de soluções eficientes e inovadoras.</p>
+                        <p className='text-2xl text-justify max-sm:text-lg'>Aqui estão alguns dos projetos nos quais desenvolvi, incluindo projetos acadêmicos e pessoais. Cada um deles reflete minha dedicação ao desenvolvimento de soluções eficientes e inovadoras.</p>
 
                     </div>
 
