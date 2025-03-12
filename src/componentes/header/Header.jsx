@@ -53,7 +53,7 @@ function Header() {
           </li>
 
           <li className="border-2 border-solid border-amber-50 rounded-lg p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
-            Projetos
+            <Link to="/projetos" onClick={() => handleNavigation('/projetos')}>Projetos</Link>
           </li>
 
           <li className="border-2 border-solid border-amber-50 rounded-lg p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
