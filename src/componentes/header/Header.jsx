@@ -77,7 +77,7 @@ function Header() {
           </li>
 
           <li className="font-serif text-black text-2xl">
-            <a href="#" className="font-serif text-black text-2xl">Projetos</a>
+            <Link to={"/projetos"} onClick={() => handleNavigation('/projetos')}>Projetos</Link>
           </li>
           
           <li className="font-serif text-black text-2xl">
