@@ -9,8 +9,8 @@ function RedesLaterais() {
 
                 <aside className="flex flex-col items-center p-4 sm:p-3 max-sm:p-2 gap-5">
 
-                    <a href="#" className="hover:opacity-75"> <FaLinkedin className="sm:text-3xl max-sm:text-2xl"/> </a>
-                    <a href="#" className="hover:opacity-75"> <IoLogoGithub className="sm:text-3xl max-sm:text-2xl"/> </a>
+                    <a href='https://www.linkedin.com/in/valter-dos-santos-filho-876073256'  target='_blank' className="hover:opacity-75"> <FaLinkedin className="sm:text-3xl max-sm:text-2xl"/> </a>
+                    <a href='https://github.com/ValterFilhoo' target='_blank'  className="hover:opacity-75"> <IoLogoGithub className="sm:text-3xl max-sm:text-2xl"/> </a>
 
 
                 </aside>

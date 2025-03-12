@@ -29,7 +29,7 @@ function Header() {
 
     // Container que terá o conteúdo do header.
     // O conteúdo do header será um menu de navegação com links para as seções do site e um logo que será as siglas do meu nome.
-    <header className="flex bg-gray-950 w-full">
+    <header className="flex bg-black w-full">
       
       <div className="w-[20%] m-5 flex justify-center items-center p-8">
         <p className="font-serif text-white text-5xl">VF</p>
@@ -57,7 +57,7 @@ function Header() {
           </li>
 
           <li className="border-2 border-solid border-amber-50 rounded-lg p-2 cursor-pointer hover:bg-gray-200 hover:text-black">
-            Contato
+            <Link to={"/contato"} onClick={() => handleNavigation("/contato")}>Contato</Link>
           </li>
 
         </ul>
@@ -81,7 +81,7 @@ function Header() {
           </li>
           
           <li className="font-serif text-black text-2xl">
-            <a href="#" className="font-serif text-black text-2xl">Contato</a>
+            <Link to={"/contato"} onClick={() => handleNavigation("/contato")}>Contato</Link>
           </li>
 
         </ul>

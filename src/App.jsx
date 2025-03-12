@@ -1,4 +1,5 @@
 import './App.css';
+import Contato from './componentes/contato/Contato';
 import DetalhesProjeto from './componentes/detalhesProjeto/DetalhesProjeto';
 import PaginaInicial from './componentes/paginaInicial/PaginaInicial';
 import Projetos from './componentes/projetos/Projetos';
@@ -21,6 +22,7 @@ function App() {
             <Route path="/sobre-mim" element={<SobreMim/>} />
             <Route path="/projetos" element={<Projetos/>} />
             <Route path="/projetos/:id" element={<DetalhesProjeto/>} />
+            <Route path='/contato' element={<Contato/>} />
             <Route path="*" element={<h1>Página não encontrada</h1>} />
 
         </Routes>
