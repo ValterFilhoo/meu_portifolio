@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { projetos } from '../../objetos/MeusProjetos.jsx'; // Importando o arquivo de projetos
 import Header from '../header/Header.jsx';
 import RedesLaterais from '../asideRedesSociais/RedesLaterais.jsx';
+import Footer from '../footer/Footer.jsx';
 
 function DetalhesProjeto() {
     
@@ -49,7 +50,7 @@ function DetalhesProjeto() {
 
                         <div>
 
-                            <h4 className="text-xl font-bold">Tecnologias:</h4>
+                            <h4 className="text-lg text-justify font-bold">Tecnologias:</h4>
 
                         </div>
 
@@ -58,7 +59,7 @@ function DetalhesProjeto() {
 
                             {projeto.tecnologias.map((tecnologia, index) => (
 
-                            <div key={index} className="px-2 py-1 bg-black text-white rounded-md text-lg">
+                            <div key={index} className="px-2 py-1 bg-black text-white rounded-md text-sm">
                                 {tecnologia}
                             </div>
 
@@ -71,12 +72,12 @@ function DetalhesProjeto() {
 
                     <div className='mb-6 text-justify'>
 
-                        <h4 className="text-xl font-bold mb-2">Funcionalidades:</h4>
+                        <h4 className="text-lg font-bold mb-2">Funcionalidades:</h4>
 
                         <ul className="list-disc list-inside">
 
                             {projeto.funcionalidades.map((funcionalidade, index) => (
-                            <li key={index} className='text-lg text-justify'>{funcionalidade}</li>
+                            <li key={index} className="text-lg text-justify">{funcionalidade}</li>
                             ))}
 
                         </ul>
@@ -84,13 +85,17 @@ function DetalhesProjeto() {
 
                     </div>
 
-                    <p><strong className='text-lg'>Desafios:</strong> {projeto.desafios}</p>
+                    <p className='text-lg text-justify mb-6'> <strong className='text-lg text-justify'>Como funciona: </strong> {projeto.comoFunciona} </p>
+
+                    <p className='text-lg text-justify'><strong className="text-lg text-justify">Desafios:</strong> {projeto.desafios}</p>
 
                 </div>
 
             </section>
 
         </main>
+
+        <Footer/>
 
         
     </>

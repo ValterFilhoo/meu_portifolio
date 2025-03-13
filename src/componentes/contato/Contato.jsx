@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import Modal from 'react-modal';
 import Header from '../header/Header';
 import RedesLaterais from '../asideRedesSociais/RedesLaterais';
+import Footer from '../footer/Footer';
 
 Modal.setAppElement('#root'); // Defina o elemento principal do app para acessibilidade
 
@@ -97,6 +98,8 @@ function Contato() {
         </section>
 
       </main>
+
+      <Footer />
 
     </>
     

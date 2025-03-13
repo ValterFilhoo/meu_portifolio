@@ -1,5 +1,7 @@
 import Header from "../header/Header";
 import RedesLaterais from "../asideRedesSociais/RedesLaterais";
+import Titulo from "../titulo/Titulo";
+import Footer from "../footer/Footer";
 
 function SobreMim() {
     return (
@@ -17,9 +19,7 @@ function SobreMim() {
             <section className="w-[80%] m-auto mt-20">
 
                 {/*Titulo Principal */}
-                <div className="flex justify-center w-full mt-20 mb-10">
-                    <h1 className="text-5xl text-center font-bold font-serif break-words max-sm:text-4xl">Sobre Mim</h1>
-                </div>
+                <Titulo titulo="Sobre Mim"/>
 
                 {/*Parágro com as informações resumidas do tópico Sobre Mim. */}
                 <div className="w-[85%] m-auto">
@@ -132,6 +132,8 @@ function SobreMim() {
             </section>
 
         </main>
+
+        <Footer/>
 
         
         </>

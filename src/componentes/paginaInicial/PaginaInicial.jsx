@@ -1,5 +1,7 @@
 import Header from "../header/Header";
 import RedesLaterais from "../asideRedesSociais/RedesLaterais";
+import Titulo from "../titulo/Titulo";
+import Footer from "../footer/Footer";
 
 function PaginaInicial() {
 
@@ -18,9 +20,7 @@ function PaginaInicial() {
 
                     <section>
 
-                        <div className="flex justify-center items-center flex-wrap w-[100%] mt-20 mb-20">
-                            <h1 className="text-5xl font-bold font-serif break-words max-sm:text-4xl">Bem-vindo!</h1>
-                        </div>
+                        <Titulo titulo="Bem-vindo!"/>
 
                         <div className="w-[80%] m-auto">
                             <p className="text-lg text-justify font-serif break-words">Olá! Sou Valter dos Santos Filho, Desenvolvedor de Sistemas Web, com foco nas tecnologias: HTML, CSS, JavaScript e MySQL, e este é o meu portifólio. Aqui você encontrará informações sobre mim, meus projetos e como entrar em contato comigo.</p>	
@@ -33,6 +33,8 @@ function PaginaInicial() {
                 </div>
                 
             </main>
+
+            <Footer/>
 
         
         </>
